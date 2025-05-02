@@ -8,7 +8,9 @@ Project Contents
 
 Your Astro project contains the following files and folders:
 
-- dags: This folder contains the Python files for your Airflow DAGs.
+- dags: This folder contains the Python files for the Airflow DAGs.
+- data: This folder contains the csv files of the datasets used in the project.
+- notebook: This folder contains the Jupyter file for the EDA Analysis of dataset .
 - Dockerfile: This file contains a versioned Astro Runtime Docker image that provides a differentiated Airflow experience. If you want to execute other commands or overrides at runtime, specify them here.
 - include: This folder contains any additional files that you want to include as part of your project. It is empty by default.
 - packages.txt: Install OS-level packages needed for your project by adding them to this file. It is empty by default.
