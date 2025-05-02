@@ -37,6 +37,18 @@ A fully automated ETL pipeline using Airflow and SQLAlchemy to extract, transfor
 
 etl-airflow-project/ ├── dags/ │ └── ETL_pipeline.py ├── docs/ │ └── pipeline-architecture.png ├── plugins/ ├── airflow_settings.yaml ├── requirements.txt ├── Dockerfile ├── README.md
 
+# Dataset Note
+
+Large dataset files have been removed to comply with GitHub size limits.
+
+You can download the original CSVs from:
+
+- [articles.csv] (https://repo.hops.works/dev/jdowling/h-and-m/articles.csv)
+
+- [customers.csv] (https://repo.hops.works/dev/jdowling/h-and-m/customers.csv)
+
+- [transactions_train.csv] (https://repo.hops.works/dev/jdowling/h-and-m/transactions_train.csv)
+
 Deploy Your Project Locally
 ===========================
 
